@@ -1,0 +1,1 @@
+{"roundId":"944d2f33-d328-44b7-b344-fef314e32a01","gameInstanceId":"blackjack-classic-pok","gameRequest":{"type":"decline-insurance"}}

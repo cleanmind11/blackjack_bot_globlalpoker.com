@@ -1,0 +1,1 @@
+{"roundId":"0552913b-f61f-4818-b1de-1250724db8a4","gameInstanceId":"blackjack-classic-pok","gameRequest":{"type":"double-hand","handIndex":0}}

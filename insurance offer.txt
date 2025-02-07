@@ -1,0 +1,67 @@
+{
+    "gameResponse": {
+        "messages": [
+            {
+                "type": "game-start",
+                "initialPlayAmount": 1000
+            },
+            {
+                "type": "cards-dealt",
+                "playerCards": [
+                    {
+                        "rank": "EIGHT",
+                        "suit": "HEARTS"
+                    },
+                    {
+                        "rank": "THREE",
+                        "suit": "HEARTS"
+                    }
+                ],
+                "playerInitialHandValue": 11,
+                "isPlayerHandBlackjack": false,
+                "dealerCard": {
+                    "rank": "ACE",
+                    "suit": "SPADES"
+                }
+            },
+            {
+                "type": "insurance-offered",
+                "insuranceAmount": 500
+            }
+        ],
+        "gameHistoryPlay": {
+            "action": "Cards Dealt",
+            "hand": {
+                "dealer": [
+                    "AS"
+                ],
+                "player": [
+                    [
+                        "8H",
+                        "3H"
+                    ]
+                ]
+            },
+            "value": {
+                "dealer": 11,
+                "player": [
+                    11
+                ]
+            },
+            "result": {
+                "dealer": "-",
+                "player": [
+                    "-"
+                ]
+            }
+        },
+        "gameHistoryOverview": {
+            "isInsured": false,
+            "totalPlayAmount": 1000,
+            "totalWinAmount": 0
+        }
+    },
+    "balance": 73500,
+    "roundId": "e1375476-c412-495d-aa73-959a27fe15dd",
+    "roundCompleted": false
+}

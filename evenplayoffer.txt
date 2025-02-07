@@ -1,0 +1,55 @@
+{
+    "gameResponse": {
+        "maxPlayAmount": 100000,
+        "playAmounts": [
+            500,
+            1000,
+            5000,
+            25000,
+            100000
+        ],
+        "gameHistory": [
+            {
+                "type": "game-start",
+                "initialPlayAmount": 1000
+            },
+            {
+                "type": "cards-dealt",
+                "playerCards": [
+                    {
+                        "rank": "QUEEN",
+                        "suit": "SPADES"
+                    },
+                    {
+                        "rank": "ACE",
+                        "suit": "CLUBS"
+                    }
+                ],
+                "playerInitialHandValue": 21,
+                "isPlayerHandBlackjack": true,
+                "dealerCard": {
+                    "rank": "ACE",
+                    "suit": "CLUBS"
+                }
+            },
+            {
+                "type": "even-play-offered"
+            }
+        ],
+        "rules": {
+            "variant": "Classic",
+            "canDealerStandSoft17": false,
+            "canDealerPeekForBlackjack": false,
+            "gcPlayLimit": {
+                "minPlayAmount": 1000,
+                "maxPlayAmount": 100000
+            },
+            "scPlayLimit": {
+                "minPlayAmount": 50,
+                "maxPlayAmount": 50000
+            }
+        }
+    },
+    "balance": 64000,
+    "currentRoundId": "cefda459-eb73-4274-b660-4cdbe59b9160"
+}
